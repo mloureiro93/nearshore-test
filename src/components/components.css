@@ -1,0 +1,95 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  
+
+}
+
+.navbar-nav{
+  margin: auto;
+}
+
+nav a:hover { color:red !important; }
+
+
+.jumbotron{
+color: white;
+background-image: url('./../images/rock-header.png');
+background-size:cover;
+}
+
+.jumbotron h1{
+  padding: 2em;
+}
+
+
+.custom-btn{
+  padding-right: 2em;
+  padding-left: 2em ;
+  font-size: smaller;
+  color: white;
+}
+  
+.title-news{
+
+font-weight: 100;
+display: flex;
+padding-left: 7em;
+}
+
+.our-news:hover{
+  border-bottom: red 2px solid;;
+}
+
+.card-title{
+  text-align: left;
+}
+
+.card-text{
+  text-align: left;
+  color: grey;
+  font-size: 0.8em;
+}
+
+.card-deck{
+  padding-right: 7em;
+  padding-left: 7em;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+@media (max-width: 768px) {
+  .card-deck{
+    padding: 1em;
+  }
+}
+
+.card:hover{
+  border-bottom: solid 2px red;
+}
+
+.card-footer{
+  background: white;
+  border: none;
+}
+.text-muted{
+  float: left;
+  background: white;
+}
+.footer{
+  /* border: 2px greenyellow solid; */
+  background: #606060;
+  color: white;
+}
+
+.footer-text a{
+  color: white;
+  text-decoration: none;
+  padding: 2em;
+  }
+
+
+
+.social-media img{
+padding: 1em;
+}

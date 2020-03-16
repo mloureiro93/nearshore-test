@@ -8,7 +8,7 @@ import pinterest from './../images/Pinterest.png'
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <div data-testid = 'footer'>
         <footer className="footer mt-auto py-3">
   <div className="container">
     <div className="footer-text">

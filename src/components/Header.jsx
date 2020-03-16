@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-       <header>
+       <header data-testid = 'header'>
       <span style={{fontWeight: 'bold'}}> BLOCKCHAIN</span>CONSORTIUM
         </header>
         
